@@ -11,12 +11,12 @@ import {
 } from "firebase/firestore/lite"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAklFjI4G1hcnw4-z5EVC2ZkacEOw_pFC0",
-    authDomain: "getavan-4fd31.firebaseapp.com",
-    projectId: "getavan-4fd31",
-    storageBucket: "getavan-4fd31.firebasestorage.app",
-    messagingSenderId: "346360116966",
-    appId: "1:346360116966:web:8b7b5c2b3679fb1dfe6d27"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig)
