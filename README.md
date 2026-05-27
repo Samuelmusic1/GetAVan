@@ -27,3 +27,8 @@ Utilized promise chaining cleanup patterns (.finally()) to cleanly govern user i
 # **Purpose**
 
 The core objective of this application was to transition from writing isolated frontend layouts to engineering interconnected, data-driven single-page systems. This project demonstrates hands-on competency in routing security, state serialization, asynchronous lifecycle management, and cloud database integration.
+
+
+login details to access dashboard: 
+test@t.com 
+test123
